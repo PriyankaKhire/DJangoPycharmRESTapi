@@ -176,4 +176,19 @@ urlpatterns = [
 ## Calling the GET api in postman
 ![Screenshot 2024-02-22 181110](https://github.com/PriyankaKhire/DJangoPycharmRESTapi/assets/12015512/8061b256-0c9a-4f27-9869-fad42ccbd1ca)
 
+## Calling the POST api from postman
+
+### Headers
+![Screenshot 2024-02-22 181444](https://github.com/PriyankaKhire/DJangoPycharmRESTapi/assets/12015512/85fadbc2-e9b3-4e27-8994-65494d77b41a)
+
+### Json body
+![Screenshot 2024-02-22 181534](https://github.com/PriyankaKhire/DJangoPycharmRESTapi/assets/12015512/d314f3a7-6c99-483b-bb95-21e4465f87c5)
+
+### Response
+![Screenshot 2024-02-22 181612](https://github.com/PriyankaKhire/DJangoPycharmRESTapi/assets/12015512/c86a7995-aee2-419f-ba18-576b417b743f)
+
+
+
+
+
 
