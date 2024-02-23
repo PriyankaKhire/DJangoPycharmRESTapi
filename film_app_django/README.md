@@ -20,11 +20,13 @@
 ```poetry shell```
 
 - Next add django rest framework
+  
 ```poetry add Django djangorestframework```
 
 ## Add Migrations
 
 - To add Migrations
+  
 ```python manage.py migrate```
 
 ## Add django rest framework 
@@ -34,22 +36,29 @@
 
 ## To run the server
 
-- Type the following 
+- Type the following
+  
 ```python manage.py runserver```
+
 - Go to http://127.0.0.1:8000/ to see if the server is running or not
 
 # To add a webapp to our server
 
 - Type the following
+  
 ```python manage.py startapp <webapp name>```
+
 - Add this newly created webapp to settings.py under INSTALLED_APPS 
 
 # Add webapp class to models
 
 - Create your database model under models.py under your webapp
-- Then migrate models 
+- Then migrate models
+  
 ```python manage.py makemigrations```
-- Then type 
+
+- Then type
+  
 ```python manage.py migrate```
 
 # To view the models 
