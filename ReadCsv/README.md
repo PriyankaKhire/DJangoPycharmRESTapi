@@ -284,5 +284,50 @@ class FilmList(APIView):
         return Response(serializer.data)
 ```
 
+## Displaying contents of the GET request
+
+- For that I created the following model in models.py
+
+```python
+class UserInfo(models.Model):
+    name = models.CharField(max_length=200)
+```
+
+- we then serialize this all
+- Put the following in serialize.py
+
+```python
+class UserInfoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = UserInfo
+        fields = '__all__'
+```
+
+- Update the urls to go to different page 
+
+```python
+from django.urls import path
+
+from films import views
+
+urlpatterns = [
+    path('', views.FilmList.as_view()),
+    path('userInfo', views.UserInfoListView.as_view()) # Added this line
+]
+```
+
+- Make the following modifications in views
+
+```python
+from films.models import UserInfo
+
+class UserInfoListView(APIView):
+    def get(self, request):
+        print("#"*50)
+        print(request.GET.get('name'))
+        return HttpResponse(request.GET.get('name'))
+```
+
+
 
 
