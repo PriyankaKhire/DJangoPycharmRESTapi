@@ -156,3 +156,20 @@ urlpatterns = [
 ]
 
 ```
+
+## To change the path of the GET API
+
+- Go uder webapp/urls.py
+
+```python
+from django.urls import path
+
+from film import views
+    
+    
+urlpatterns = [
+    path('v1/viewList', views.FilmList.as_view())
+]
+```
+![Screenshot 2024-02-22 180849](https://github.com/PriyankaKhire/DJangoPycharmRESTapi/assets/12015512/9c13d711-d4f1-42e7-bb24-8c48a49c235c)
+
