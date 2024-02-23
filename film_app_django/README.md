@@ -1,5 +1,8 @@
 # REST API using PyCharm Python 3.12 and Django
 
+## YouTube tutorial:
+[Django - PyCharm #1: Create a Simple REST API with Django](https://www.youtube.com/watch?v=iWPS2HiXUSg&ab_channel=BoilerTech)
+
 ## Getting started
 - Open PyCharm and Select Django Project
 - Select Python version
