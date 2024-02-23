@@ -173,3 +173,7 @@ urlpatterns = [
 ```
 ![Screenshot 2024-02-22 180849](https://github.com/PriyankaKhire/DJangoPycharmRESTapi/assets/12015512/9c13d711-d4f1-42e7-bb24-8c48a49c235c)
 
+## Calling the GET api in postman
+![Screenshot 2024-02-22 181110](https://github.com/PriyankaKhire/DJangoPycharmRESTapi/assets/12015512/8061b256-0c9a-4f27-9869-fad42ccbd1ca)
+
+
