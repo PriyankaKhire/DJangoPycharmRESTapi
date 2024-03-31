@@ -1,6 +1,14 @@
 # DJangoPycharmRESTapi
 Creating REST api using Django and PyCharm
 
+## Errors Faced
+```
+Could not find platform independent libraries
+```
+[Delete all python installations](https://stackoverflow.com/questions/3515673/how-to-completely-remove-python-from-a-windows-machine)
+remove from environment variables -> Start -> Type "Environment Variables"
+
+
 ## Film app
 - [ReadMe.md](film_app_django/README.md)
 - This project has 2 simple APIs
