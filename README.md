@@ -6,7 +6,15 @@ Creating REST api using Django and PyCharm
 Could not find platform independent libraries
 ```
 [Delete all python installations](https://stackoverflow.com/questions/3515673/how-to-completely-remove-python-from-a-windows-machine)
-remove from environment variables -> Start -> Type "Environment Variables"
+
+remove python from environment variables -> Start -> Type "Environment Variables"
+![Screenshot 2024-03-30 220024](https://github.com/PriyankaKhire/DJangoPycharmRESTapi/assets/12015512/9d57947f-7b68-47f5-a808-63aaa122826b)
+![2](https://github.com/PriyankaKhire/DJangoPycharmRESTapi/assets/12015512/4f69913e-104b-4aa2-8ef5-ea3435796693)
+![3](https://github.com/PriyankaKhire/DJangoPycharmRESTapi/assets/12015512/f429e26d-6bae-42fd-8111-7fcad209c453)
+
+Finally start PyCharm and install python through it.
+
+Note: always install poetry inside virtual environment using terminal commands. Do not try to install it via Pycharm
 
 
 ## Film app
